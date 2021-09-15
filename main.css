@@ -10,6 +10,30 @@ body {
     display: flex;
 }
 
+.videoHeader {
+    border: 2px solid brown;
+}
+
+.videoLinks {
+    border: 4px dotted black;
+
+}
+
+.quote {
+    border: 3px dotted orange;
+}
+
+.finalSubscribe {
+    border: 4px dotted seagreen;
+}
+
+.navBar {
+    border: 10px dotted lightgreen;
+}
+
+.bottomPage {
+    border: 8px solid grey;
+}
 .siteHeader {
     border: 2px solid green;
 }
