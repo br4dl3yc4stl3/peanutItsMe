@@ -1,0 +1,16 @@
+* {
+    border: 2px solid red;
+}
+body {
+    border: 2px solid blue;
+}
+
+.wholeHeader {
+    border: 2px solid purple;
+    display: flex;
+}
+
+.siteHeader {
+    border: 2px solid green;
+}
+
