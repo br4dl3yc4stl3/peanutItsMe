@@ -1,5 +1,6 @@
 * {
     border: 2px solid red;
+    box-sizing: inherit;
 }
 body {
     border: 2px solid blue;
@@ -27,8 +28,17 @@ body {
     border: 4px dotted seagreen;
 }
 
+.footer {
+    display: flex;
+}
 .navBar {
     border: 10px dotted lightgreen;
+
+}
+
+.navBar a, img {
+    border: 4px dotted red;
+    max-width: 100%;
 }
 
 .bottomPage {
