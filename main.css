@@ -3,6 +3,25 @@
     src: url(fonts/PADTHAI_.TTF);
 }
 
+@font-face {
+    font-family: headerFont;
+    src: url(fonts/Babie.ttf);
+}
+
+@font-face {
+    font-family: bodyFont ;
+    src: url(fonts/NugoSans-Light.ttf);
+}
+
+@font-face {
+    font-family: subscribeFont;
+    src: url(fonts/AugustSansRed-55Regular.otf);
+}
+@font-face {
+    font-family: ;
+    src: url();
+}
+
 * {
     border: 2px solid red;
     box-sizing: inherit;
@@ -11,7 +30,7 @@
 .siteDescription {
     color: #E5E7EB;
     font-size: 18px;
-    font-family: Hero Secondary;
+    font-family: bodyFont;
 }
 
 .pageMainImage {
@@ -22,15 +41,13 @@
 .subscribe {
     max-width: 90px;
     max-height: 25px;
-    background-color: blue;
-    font-size: 12px;
+    background-color: rgb(50, 127, 241);
     color: white;
     align-content: center;
-    padding-top: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 body {
-    border: 2px solid blue;
+    border: 2px solid rgb(50, 127, 241);
 }
 
 .videoReel {
@@ -50,14 +67,14 @@ body {
 }
 
 .wholeHeader p {
-    font-family: thaiFont;
+    font-family: headerFont;
 
 }
 
 .videoHeader {
     border: 2px solid brown;
     text-align: center;
-    font-family: thaiFont;
+    font-family: bodyFont;
 }
 
 .videoLinks {
@@ -67,6 +84,7 @@ body {
 
 .quote {
     border: 3px dotted orange;
+    font-family: bodyFont;
 }
 
 .finalSubscribe {
@@ -93,6 +111,24 @@ body {
 .siteHeader {
     border: 2px solid green;
     color: #F9FAF8;
-    font-family: thaiFont;
+    font-family: headerFont;
 }
 
+.headerLeft p {
+    font-family: bodyFont;
+}
+
+.headerLeft a {
+    font-family: subscribeFont;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+}
+
+.videoLinks p {
+    font-family: bodyFont;
+}
