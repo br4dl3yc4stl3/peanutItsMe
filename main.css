@@ -1,3 +1,8 @@
+@font-face {
+    font-family: thaiFont;
+    src: url(fonts/PADTHAI_.TTF);
+}
+
 * {
     border: 2px solid red;
     box-sizing: inherit;
@@ -39,9 +44,20 @@ body {
     background-color: #1F2937;
 }
 
+.headerLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.wholeHeader p {
+    font-family: thaiFont;
+
+}
+
 .videoHeader {
     border: 2px solid brown;
     text-align: center;
+    font-family: thaiFont;
 }
 
 .videoLinks {
@@ -77,5 +93,6 @@ body {
 .siteHeader {
     border: 2px solid green;
     color: #F9FAF8;
+    font-family: thaiFont;
 }
 
